@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Jeel Kadivar Portfolio</title>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <header class="navigation" id="navbar">
+            <div class="logo" id="local"><a href="index.html">Jeel Portfolio</a></div>
+            <nav>
+                <ul class="nav-links" id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="main-categories">
+                <h1 class="workpageheading">Project Works</h1>
+
+                <!-- Order Change in Css Grid -->
+                <div class="category-grid">
+                    <div class="category-card" onclick="showSubcategories('video')" id="video">
+                        <div class="overlay-text">Motion Graphics & Video</div>
+                    </div>
+                    <div class="category-card" onclick="showSubcategories('website')" id="web">
+                        <div class="overlay-text">Web Design</div>
+                    </div>
+                    <div class="category-card" onclick="showSubcategories('graphics')" id="graphics">
+                        <div class="overlay-text">UI/UX</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="subcategories-container" class="hidden">
+                <span class="back-button" onclick="backToMain()">← Back to Categories</span>
+                <h2 id="subcategory-title"></h2>
+                <div class="subcategory-grid">
+
+
+                    <!-- Video Subcategories -->
+                    <section class="video">
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1061872642?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0" width="450px" height="300px"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Plastic-Recycling_Capstone-Project"></iframe>
+                            <h2 class="about">Plastic Recycling Capstone Project</h2>
+                            <p class="details">Conestoga college awarded me the best capstone project award for my final
+                                semester project.</p>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1039701393?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Kinetic-Typography-Output"></iframe>
+                            <h2 class="about">Kinetic Typography</h2>
+                            <p class="details">For my motion graphics class, I created a kinectic typographic project
+                                that got praise from my peers and mentor.</p>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1039329566?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Video 3  How Buildings Generate Renewable Energy"></iframe>
+                            <h2 class="about">Client Motion Work</h2>
+                            <p class="details"></p>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1039328821?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Extracard 2.0"></iframe>
+                            <h2 class="about">Client Promotional Video</h2>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1085551306?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Urban Ollie 2022 4.0 Youtube"></iframe>
+                            <h2 class="about">Client Youtube Video</h2>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1039707314?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="Coin it Season 2 Intro"></iframe>
+                            <h2 class="about">Client Youtube Intro</h2>
+                        </div>
+
+                        <div class="subcategory-card sub-video hidden">
+                            <iframe
+                                src="https://player.vimeo.com/video/1039709725?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="450px" height="300px" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                                title="High Tempo Edit_First-Jeel(8866307)"></iframe>
+                            <h2 class="about">High Tempo Edit</h2>
+                            <p class="details">In my first semester at Conestoga College, this was my final project for
+                                the
+                                digital media production course.</p>
+                        </div>
+
+                        <div class="category-card" data-category="video" onclick="showSubcategories('video')"></div>
+                    </section>
+
+
+                    <!-- Website Subcategories -->
+                    <section class="website">
+                        <div class="subcategory-card sub-website hidden">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80"
+                                alt="Portfolio Site">
+                            <div>Portfolio Site</div>
+                        </div>
+                        <div class="subcategory-card sub-website hidden">
+                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+                                alt="E-Commerce">
+                            <div>E-Commerce</div>
+                        </div>
+                        <div class="subcategory-card sub-website hidden">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80"
+                                alt="Landing Page">
+                            <div>Landing Page</div>
+                        </div>
+                        <div class="subcategory-card sub-website hidden">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80"
+                                alt="Responsive Design">
+                            <div>Responsive Design</div>
+                        </div>
+                        <div class="category-card" data-category="website" onclick="showSubcategories('website')"></div>
+                    </section>
+
+
+                    <!-- Graphics Subcategories -->
+                    <section class="uiux">
+                        <div class="subcategory-card sub-graphics hidden">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80"
+                                alt="Poster Design">
+                            <div>Poster Design</div>
+                        </div>
+                        <div class="subcategory-card sub-graphics hidden">
+                            <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=400&q=80"
+                                alt="Social Media">
+                            <div>Social Media</div>
+                        </div>
+                        <div class="subcategory-card sub-graphics hidden">
+                            <img src="https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=400&q=80"
+                                alt="Logo">
+                            <div>Logo</div>
+                        </div>
+                        <div class="subcategory-card sub-graphics hidden">
+                            <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=400&q=80"
+                                alt="Infographic">
+                            <div>Infographic</div>
+                        </div>
+                        <div class="category-card" data-category="graphics" onclick="showSubcategories('graphics')">
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+            <footer class="creative-footer">
+                <div class="footer-container">
+
+                    <div class="footer-section links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="work.html">Work</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section contact">
+                        <h2>Contact</h2>
+                        <div class="social-icons">
+                            <a href="mailto:mjkadivar.jk@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/jeel-kadivar-media-designer" target="_blank"
+                                rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    &copy; 2025 Jeel Kadivar | All rights reserved.
+                </div>
+            </footer>
+
+        </footer>
+    </div>
+    <script src="java/portfolio.js"></script>
+    <script src="java/workpage.js"></script>
+</body>
+
+</html>
