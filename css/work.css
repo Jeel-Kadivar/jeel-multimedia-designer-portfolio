@@ -224,6 +224,20 @@ body {
 
 /* New css for categories Cards and sub-category cards. */
 
+.video-style {
+  margin-top: 40px;
+  font-family: var(--Fancy);
+  font-size: 40px;
+  padding: 10px;
+  color: var(--White);
+  background-color: var(--BG-Color);
+  width: 100vw;
+  background-color: var(--BG-Color);
+  text-align: center;
+}
+
+
+
 .category-grid {
   display: grid;
   justify-items: center;
@@ -355,6 +369,8 @@ body {
   font-size: 30px;
   background-color: var(--BG-Color);
   color: var(--White);
+  padding-left: 5px;
+  padding-right: 5px;
   width: 450px;
   height: 70px;
 }
@@ -497,6 +513,10 @@ body {
     margin-right: 0;
   }
 
+  .video-style {
+    font-size: 28px;
+    padding: 10px;
+  }
 
   .category-grid {
     display: grid;
