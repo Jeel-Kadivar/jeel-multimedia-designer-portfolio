@@ -166,7 +166,6 @@ body {
 .page-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 /* Main content take all available space */
@@ -224,6 +223,13 @@ body {
 
 /* New css for categories Cards and sub-category cards. */
 
+
+
+.hidden {
+  display: none;
+}
+
+
 .video-style {
   margin-top: 40px;
   font-family: var(--Fancy);
@@ -231,7 +237,7 @@ body {
   padding: 10px;
   color: var(--White);
   background-color: var(--BG-Color);
-  width: 100vw;
+  width: 100%;
   background-color: var(--BG-Color);
   text-align: center;
 }
@@ -350,16 +356,26 @@ body {
   height: 70px;
 }
 
-.video,
-.website {
+.video {
   max-width: 95rem;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 50px;
-
 }
+
+
+.website {
+  max-width: 95rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;        /* vertical centering */
+  gap: 50px;   
+}
+
+
 
 .about {
   display: flex;
