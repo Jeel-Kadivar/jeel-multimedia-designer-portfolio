@@ -10,12 +10,12 @@ function showSubcategories(category) {
   };
   document.getElementById('subcategory-title').textContent = titleMap[category] || "Subcategories";
 
-  // Hide all subcategory cards
-  const allSubs = document.querySelectorAll('.subcategory-card');
+  // Hide all subcategory cards + headings
+  const allSubs = document.querySelectorAll('.subcategory-card, .video-style');
   allSubs.forEach(el => el.classList.add('hidden'));
 
-  // Show only selected category subcategories
-  const selectedSubs = document.querySelectorAll(`.sub-${category}`);
+  // Show only selected category subcategories + headings
+  const selectedSubs = document.querySelectorAll(`.sub-${category}, .${category} .video-style`);
   selectedSubs.forEach(el => el.classList.remove('hidden'));
 }
 
@@ -23,6 +23,9 @@ function backToMain() {
   document.getElementById('subcategories-container').classList.add('hidden');
   document.getElementById('main-categories').classList.remove('hidden');
 }
+
+
+
 
 //Addition on workpage
 
